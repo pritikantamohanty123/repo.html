@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Div Box model</title>
+    <style>
+        .one{
+            width: 1000px;
+            height: 200px;
+            background-color: yellowgreen;
+            color: whitesmoke;
+
+        }
+        .two{
+            width: 1000px;
+            height: 50px;
+            background-color: rgb(50, 187, 205);
+            color: white;
+        }
+        .three{
+            width: 500px;
+            height: 500px;
+            background-color: rgb(113, 72, 237);
+            color: white;
+            float: left;
+        }
+        .fourth{
+            width: 500px;
+            height: 500px;
+            background-color: rgb(191, 41, 166);
+            color: white;
+            float: right;
+        }
+        .container{
+            width: 1000px;
+            height: auto;
+            margin: auto;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="one">banner here</div>
+        <div class="two">navigation</div>
+        <div class="three">Left</div>
+        <div class="fourth">Right</div>
+    </div>
+</body>
+</html>
