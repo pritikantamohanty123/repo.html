@@ -1,0 +1,77 @@
+#container {
+  width: 100%;
+  height: auto;
+  margin: auto;
+}
+header {
+    width: 1000px;
+    height: 200px;
+}
+aside {
+    width: 333px;
+    height: 400px;
+    background-color: aqua;
+    float: left;
+}
+article {
+    width: 333px;
+    height: 400px;
+    background-color: lightgray;
+    float: left;
+}
+.one {
+    width: 333px;
+    height: 400px;
+    background-color: yellow;
+    float: left;
+}
+@media screen and (max-width: 999px) {
+    #container {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        height: auto;
+    }
+    img{
+        width: 100%;
+    }
+    aside {
+        width: 50%;
+        height: 200px;
+        
+    }
+    article {
+        width: 50%;
+        height: 200px;
+        
+    }
+    .one {
+        width: 100%;
+        height: 200px;
+    }
+    
+}
+
+@media screen and (max-width: 600px) {
+    #container {
+        width: 100%;
+    }
+    header {
+        width: 100%;
+        height: auto;
+    }
+    img{
+        width: 100%;
+    }
+    aside {
+        width: 100%;
+        color: white;
+    }
+    article {
+        width: 100%;
+    }
+    .one {
+        width: 100%;
+    }
+}
