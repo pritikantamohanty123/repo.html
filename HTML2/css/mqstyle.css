@@ -1,0 +1,54 @@
+#container{
+    width:1000px;
+    height:auto;
+    margin:auto;
+}
+header{
+    width:1000px;
+    height: 200px;
+}
+aside{
+    width:500px;
+    height:400px;
+    background-color: yellow;
+    float:left;
+}
+article{
+    width:500px;
+    height: 400px;
+    background-color: orange;
+    float:left;
+}
+
+@media screen and (max-width:999px){
+    #container{
+        width:100%;
+    }
+    header{
+        width:100%;
+        height:auto;
+    }
+    img{
+        width:100%;
+    }
+    aside{
+        width:30%;
+        height:400px;
+    }
+    article{
+        width:70%;
+        height:400px;
+    }
+}
+
+@media screen and (max-width:600px){
+    aside{
+        width:100%;
+        background-color: black;
+        color:white;
+    }
+    article{
+        width:100%;
+        background-color: cyan;
+    }
+}
